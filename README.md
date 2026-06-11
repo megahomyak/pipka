@@ -6,6 +6,12 @@ the main point of "pipka" is it's just a proxy that runs commands in your venv, 
 
 ## usage
 
+i will assume that you've done this:
+
+```
+alias pipka="python $PIPKA_REPO_DIRECTORY/pipka.py"
+```
+
 ### command execution
 
 venv will be created in the current directory's ".venv" child if it didn't exist (in there or in any of the parent directories), the command will be executed in the venv:
