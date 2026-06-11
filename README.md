@@ -4,6 +4,8 @@ is a tiny CLI tool to make Python project venv and "requirements.txt" management
 
 the main point of "pipka" is it's just a proxy that runs commands in your venv, and its only side effects are slight env var modifications and the modification of "requirements.txt" after your every "pip" invocation
 
+pipka **does not have dependencies besides Python**. you can review the code yourself: it's **35 lines**
+
 ## usage
 
 i will assume that you've done this:
