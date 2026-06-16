@@ -30,7 +30,15 @@ to force venv creation, you can use:
 pipka true
 ```
 
-... or any other command that does nothing
+or
+
+```
+pipka
+```
+
+...or any other command that does nothing
+
+(empty command is supported, it does nothing but creates venv if needed)
 
 ### pip interactions
 
